@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255" >
+<title>Insert title here</title>
+</head>
+<style type="text/css">
+.menus {
+	font-size: 00px;
+	background-color: gray;
+}
+
+.program_summary {
+	float: right;
+	font background-color: rebeccapurple;
+	border-bottom-color: blue;
+}
+
+.math_sum {
+	float: right;
+}
+
+.programing_practice {
+	float: right;
+}
+
+.math_practice {
+	float: right;
+}
+
+.login {
+	text-align: center;
+	direction: ltr;
+	border-style: inset;
+
+	
+}
+
+form {
+	text-align: center;
+	direction: rtl;
+	
+}
+</style>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="menus">
+
+		<!-- login form -get user name and password and verify the  data  -->
+
+
+		<div class="program_summary">
+			<button>
+				<a href="my-web.jsp">דף הבית</a>
+			</button>
+		</div>
+		<div class="program_summary">
+			<button>סיכום בתכנות</button>
+		</div>
+		<div class="math_sum">
+			<button>סיכומימים במתמטיקה</button>
+		</div>
+		<div class="programing_practice">
+			<button>
+				<a href="problems-page.jsp">תרגול בתיכנות</a>
+			</button>
+		</div>
+		<div class="math_practice">
+			<button>תירגול במתמטיקה</button>
+		</div>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="login">
+
+		<form action="LogInServlet" method="post">
+	    <h2>דואר אלקטרוני</h2> 		<input type="email" name="email"> <br> 
+		<h2>סיסמא</h2>	<input type="password" name="password"> <br> <br>
+			<input type="submit" value="כניסה">
+		</form>
+	</div>
+
+</body>
+</html>
